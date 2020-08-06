@@ -16,12 +16,12 @@ kcount = 0
 some_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
-
+puts kcount
 puts "Steve just learned this important knowledge: '#{steve.knowledge[kcount]}' from Avi"
 
 
 kcount += 1
 steve.learn(avi.teach)
-
+puts kcount
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 kcount += 1
