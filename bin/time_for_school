@@ -23,5 +23,5 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge[kcount]}' 
 kcount += 1
 steve.learn(avi.teach)
 puts kcount
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge[kcount]}' from Avi"
 kcount += 1
